@@ -9,6 +9,19 @@ public class Member {
     private int period; // 등록기간(개월)
     private int remains; // 잔여일
 
+    public Member() {
+    }
+
+    public Member(String name, char gender, String phoneNumber, String startDate, String endDate, int period, int remains) {
+        this.name = name;
+        this.gender = gender;
+        this.phoneNumber = phoneNumber;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.period = period;
+        this.remains = remains;
+    }
+
     public String getName() {
         return name;
     }
