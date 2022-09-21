@@ -35,7 +35,7 @@ public class MemberManage {
                 break;
             }
             else if(menu == 1) {
-                MemberCRUD.listAll();
+                memberCRUD.listAll();
             }
         }
     }
